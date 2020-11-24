@@ -5,7 +5,7 @@ of death due to covid-19 on a given day.
 
 The repo contains:
 
-- Data folder: The clean data set contains daily covid19 case reports on October 13, 2020, which includes daily confirmed cases, daily death cases, daily recovered cases, and daily active cases from 182 listed countries. 
+- **Data folder**: The clean data set contains daily covid19 case reports on October 13, 2020, which includes daily confirmed cases, daily death cases, daily recovered cases, and daily active cases from 182 listed countries. 
 
 Daily confirmed cases include confirmed and probable (where reported).
 Daily death cases include confirmed and probable (where reported).
@@ -19,7 +19,7 @@ Originally from 2019 Novel Coronavirus Visual Dashboard operated by the Johns Ho
 Population in 2019 from listed countries is also included in this data set. It is downloaded from the World Bank- World Development Indicators. The number of population is in ten thousands. 
 link: https://data.worldbank.org/indicator/SP.POP.TOTL
  
-- Codes folder:The codes folder includes the following:
+- **Codes folder**:The codes folder includes the following:
 
 1. covid_get_data.R: this is the R script that collects all the data used in this analysis.
 
@@ -31,6 +31,6 @@ link: https://data.worldbank.org/indicator/SP.POP.TOTL
 
 5. Joint_Assignment_COVID.Rproj: Project file is also included so you should be able to open all the R scripts and Rmd file in this project. 
  
-- Docs folder: it contains both .html and .pdf generated from .rmd.
+- **Docs folder**: it contains both .html and .pdf generated from .rmd.
 
-- Output folder: in this folder, you can find the code generated model summary statistics table in the html format, and also a screenshot of the html result.
+- **Output folder**: in this folder, you can find the code generated model summary statistics table in the html format, and also a screenshot of the html result.
